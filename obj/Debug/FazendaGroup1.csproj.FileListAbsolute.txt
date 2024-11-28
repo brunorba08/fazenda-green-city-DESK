@@ -1,0 +1,34 @@
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Cadastro.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.EditarProduto.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.ExcluirProduto.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.FornecedorCadastro.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Inicio.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.MenuPrincipal.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Produtos.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.ProdutosGrid.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Properties.Resources.resources
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.csproj.GenerateResource.cache
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\bin\Debug\FazendaGroup1.exe.config
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\bin\Debug\FazendaGroup1.exe
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\bin\Debug\FazendaGroup1.pdb
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.exe
+C:\Users\mateu\OneDrive\Documentos\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.pdb
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\bin\Debug\FazendaGroup1.exe.config
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\bin\Debug\FazendaGroup1.exe
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\bin\Debug\FazendaGroup1.pdb
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.csproj.AssemblyReference.cache
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Cadastro.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.EditarProduto.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.ExcluirProduto.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.FornecedorCadastro.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Inicio.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.MenuPrincipal.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Produtos.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.ProdutosGrid.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.Properties.Resources.resources
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.csproj.GenerateResource.cache
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.csproj.CoreCompileInputs.cache
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.exe
+C:\Users\pcpow\OneDrive\Documentos\Faculdade\Projeto PIM\desk\Group1Desk\FazendaGroup1\obj\Debug\FazendaGroup1.pdb

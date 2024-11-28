@@ -1,0 +1,17 @@
+CREATE TABLE Fornecedor(
+Nome NVARCHAR(100),
+)
+CREATE TABLE Cadastro(
+Id INT PRIMARY KEY IDENTITY,
+Email NVARCHAR(80),
+Senha NVARCHAR (50),
+)
+
+CREATE TABLE Produtos (
+Id INT PRIMARY KEY IDENTITY,
+Nome NVARCHAR (MAX),
+Descricao NVARCHAR (MAX),
+Preco DECIMAL(10, 2)
+Quantidade INT,
+CodigoBarras VARCHAR(13);
+)

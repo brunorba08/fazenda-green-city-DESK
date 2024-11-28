@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{439C12CA-EA94-4CB6-AF02-8CCFEEA2A579}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FazendaGroup1</RootNamespace>
+    <AssemblyName>FazendaGroup1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection\ConnectionString.cs" />
+    <Compile Include="View\ModuloUser\ModuloEditar\EditarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModuloUser\ModuloEditar\EditarProduto.Designer.cs">
+      <DependentUpon>EditarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModuloExcluir\ExcluirProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModuloExcluir\ExcluirProduto.Designer.cs">
+      <DependentUpon>ExcluirProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FazendaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FazendaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FazendaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FazendaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModuloCadastrar\FornecedorCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModuloCadastrar\FornecedorCadastro.Designer.cs">
+      <DependentUpon>FornecedorCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModuloMain\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModuloMain\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModuloMain\TelaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModuloMain\TelaCadastro.Designer.cs">
+      <DependentUpon>TelaCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModuloProduto\Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModuloProduto\Produtos.Designer.cs">
+      <DependentUpon>Produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModuloProduto\ProdutosGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModuloProduto\ProdutosGrid.Designer.cs">
+      <DependentUpon>ProdutosGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="View\ModuloUser\ModuloEditar\EditarProduto.resx">
+      <DependentUpon>EditarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModuloExcluir\ExcluirProduto.resx">
+      <DependentUpon>ExcluirProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModuloCadastrar\FornecedorCadastro.resx">
+      <DependentUpon>FornecedorCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModuloMain\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModuloMain\TelaCadastro.resx">
+      <DependentUpon>TelaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModuloProduto\Produtos.resx">
+      <DependentUpon>Produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModuloProduto\ProdutosGrid.resx">
+      <DependentUpon>ProdutosGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="FazendaDataSet.xsc">
+      <DependentUpon>FazendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FazendaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FazendaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FazendaDataSet.xss">
+      <DependentUpon>FazendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FazendaDataSet1.xsc">
+      <DependentUpon>FazendaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FazendaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FazendaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FazendaDataSet1.xss">
+      <DependentUpon>FazendaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
